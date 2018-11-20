@@ -1,0 +1,33 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("fr-vagues-portugal-surf.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: whitesmoke !important;
+}
+
+#titre {
+    background: #DBDBDB;
+    color: #C230FF;
+    font-size: 50px;
+    border-radius: 30px;
+}
+
+#compteur {
+    margin-top: 10%;
+    font-size: 50px;
+}
+#play {
+    float: right;
+}
+
+#Bout {
+    margin: 0;
+    padding: 0;
+}
+
+#txt_color {
+    color: black !important;
+}

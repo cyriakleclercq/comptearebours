@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="comptearebours.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+
+<header class="container-fluid p-0">
+    <h1 id="titre" class="text-center pb-5 pt-5"> Compte à rebours </h1>
+</header>
+
+    <h2 class="text-center"> Spécifiez votre temps : </h2>
+
+    <div class="text-center mb-4 mt-4">
+        <div id="txt_color">
+        <input type="text" id="txt_heures">
+        <input type="text" id="txt_minutes">
+        <input type="text" id="txt_secondes">
+
+        <button type="submit" id="bouton_soumis"> press </button>
+        </div>
+    </div>
+
+    <div id="compteur" class="text-center">
+        <span id="heures"> .. </span>
+        <span> :</span>
+        <span id="minutes"> ..</span>
+        <span> :</span>
+        <span id="secondes"> ..</span>
+    </div>
+
+    <div id="Bout" class="row mb-5 mt-5">
+        <div class="col-4"> </div>
+        <div class="col-2"> <button type="submit" id="play"> Play </button> </div>
+        <div class="col-2"> <button type="submit" id="bouton_pause"> Pause </button> </div>
+        <div class="col-4"> </div>
+    </div>
+
+    <div class="text-center"> <button type="submit" id="bouton_reset"> Reset </button> </div>
+
+
+
+
+
+<footer class="container-fluid pb-5 pt-4">
+
+</footer>
+<script src="comptearebours.js"></script>
+</body>
+</html>
